@@ -1,5 +1,4 @@
-# Generated simulation outputs
-*.vcd
+# Compiled simulation executables
 sim
 sim[0-9]
 *_sim

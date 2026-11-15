@@ -1,0 +1,92 @@
+$date
+	Mon Oct 12 19:40:35 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 1 ! Qb $end
+$var wire 1 " Qa $end
+$var parameter 32 # CLOCK_PERIOD $end
+$var reg 1 $ Clk $end
+$var reg 1 % R $end
+$var reg 1 & S $end
+$scope module U1 $end
+$var wire 1 $ Clk $end
+$var wire 1 " Qa $end
+$var wire 1 ! Qb $end
+$var wire 1 % R $end
+$var wire 1 ' R_g $end
+$var wire 1 & S $end
+$var wire 1 ( S_g $end
+$upscope $end
+$scope begin Clock_Generator $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 #
+$end
+#0
+$dumpvars
+0(
+0'
+0&
+1%
+0$
+x"
+x!
+$end
+#5000
+1!
+0"
+1'
+1$
+#10000
+0'
+0$
+0%
+#15000
+1$
+#20000
+0$
+1&
+#25000
+1"
+0!
+1(
+1$
+#30000
+0(
+0$
+0&
+#35000
+1$
+#40000
+0$
+#45000
+1$
+#50000
+0$
+1%
+#55000
+1!
+0"
+1'
+1$
+#60000
+0'
+0$
+0%
+#65000
+1$
+#70000
+0$
+#75000
+1$
+#80000
+0$

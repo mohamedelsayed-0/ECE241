@@ -1,0 +1,177 @@
+$date
+	Mon Oct 12 22:11:35 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 10 ! LEDR [9:0] $end
+$var parameter 32 " CLOCK_PERIOD $end
+$var reg 2 # SW [1:0] $end
+$scope module U1 $end
+$var wire 2 $ SW [1:0] $end
+$var wire 1 % Qm $end
+$var wire 10 & LEDR [9:0] $end
+$scope module master $end
+$var wire 1 ' Clk $end
+$var wire 1 ( D $end
+$var wire 1 % Q $end
+$var wire 1 ) Qb $end
+$var wire 1 * R_g $end
+$var wire 1 + S_g $end
+$upscope $end
+$scope module slave $end
+$var wire 1 , Clk $end
+$var wire 1 % D $end
+$var wire 1 - Q $end
+$var wire 1 . Qb $end
+$var wire 1 / R_g $end
+$var wire 1 0 S_g $end
+$upscope $end
+$upscope $end
+$scope begin Clock_Generator $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1100100 "
+$end
+#0
+$dumpvars
+x0
+x/
+x.
+x-
+1,
+0+
+0*
+x)
+0(
+0'
+b0x &
+x%
+b0 $
+b0 #
+b0x !
+$end
+#50000
+1)
+0%
+0/
+00
+1*
+0,
+1'
+b10 #
+b10 $
+#100000
+1.
+b0 !
+b0 &
+0-
+1/
+0*
+1,
+0'
+1(
+b1 #
+b1 $
+#150000
+1%
+0)
+0/
+1+
+0,
+1'
+b11 #
+b11 $
+#200000
+b1 !
+b1 &
+1-
+0.
+10
+1,
+0+
+0'
+0(
+b0 #
+b0 $
+#215000
+1(
+b1 #
+b1 $
+#235000
+0(
+b0 #
+b0 $
+#250000
+1)
+0%
+00
+1*
+0,
+1'
+b10 #
+b10 $
+#285000
+1%
+0)
+0*
+1+
+1(
+b11 #
+b11 $
+#300000
+10
+0+
+1,
+0'
+b1 #
+b1 $
+#335000
+0(
+b0 #
+b0 $
+#350000
+1)
+0%
+00
+1*
+0,
+1'
+b10 #
+b10 $
+#385000
+1%
+0)
+0*
+1+
+1(
+b11 #
+b11 $
+#400000
+10
+0+
+1,
+0'
+b1 #
+b1 $
+#450000
+00
+1+
+0,
+1'
+b11 #
+b11 $
+#500000
+10
+0+
+1,
+0'
+b1 #
+b1 $
