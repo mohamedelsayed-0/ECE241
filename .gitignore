@@ -1,0 +1,6 @@
+# Generated simulation outputs
+*.vcd
+sim
+sim[0-9]
+*_sim
+/labs/lab3/part*_files/part[0-9]
